@@ -21,7 +21,7 @@
   <p class="meta">
     Controlador: Guilherme José Cruz · Contato/Encarregado (DPO):
     <a href="mailto:guilhermejcprojects@gmail.com">guilhermejcprojects@gmail.com</a><br>
-    Última atualização: 7 de junho de 2026
+    Última atualização: 13 de junho de 2026
   </p>
 
   <p>
@@ -40,7 +40,7 @@
     <tr><td>Cadastro / conta</td><td>Nome, e-mail e, se você optar por entrar com o Google, o identificador da conta Google e foto de perfil</td><td>Você</td></tr>
     <tr><td>Conteúdo de estudo</td><td>Matérias, flashcards, anotações, tarefas e histórico de sessões de estudo</td><td>Você</td></tr>
     <tr><td>Gamificação</td><td>XP, ofensiva (streak), conquistas e estado da planta virtual</td><td>Gerado pelo uso</td></tr>
-    <tr><td>Uso e diagnóstico</td><td>Endereço IP, sistema operacional do dispositivo, datas/horários de acesso e eventos de uso do Aplicativo</td><td>Automática</td></tr>
+    <tr><td>Uso e diagnóstico</td><td>Endereço IP, sistema operacional do dispositivo, datas/horários de acesso, eventos de uso do Aplicativo (telas visitadas e ações como concluir sessões e revisar flashcards) e um identificador de instância do app, coletados via <strong>Google Analytics for Firebase</strong>. <strong>Não</strong> utilizamos identificador de publicidade (Advertising ID).</td><td>Automática</td></tr>
     <tr><td>Assinatura</td><td>Status do plano (gratuito/Premium), tipo (mensal/anual), data de validade e um identificador da compra do Google Play (purchase token) associado à sua conta. <strong>Não</strong> coletamos número de cartão nem outros dados de pagamento.</td><td>Google Play / gerado pelo uso</td></tr>
   </table>
   <p>
@@ -50,21 +50,41 @@
     <strong>não recebe nem armazena dados de cartão</strong>.
   </p>
 
-  <h2>2. Bases legais e finalidades (Art. 7 e 11)</h2>
+  <h2>2. Modo convidado (uso sem conta)</h2>
+  <p>
+    Você pode usar o Aplicativo <strong>sem criar uma conta</strong>. Nesse modo, os dados que
+    você cria — matérias, tarefas, anotações, flashcards e sessões de estudo — ficam
+    <strong>armazenados apenas no seu aparelho</strong> e <strong>não são enviados aos nossos
+    servidores</strong>. Se mais tarde você criar uma conta, esses dados são enviados para a sua
+    conta para permitir a sincronização entre dispositivos.
+  </p>
+  <p>
+    Mesmo no modo convidado, coletamos <strong>métricas de uso anônimas</strong> (via Google
+    Analytics for Firebase) para melhorar o Aplicativo, sem associá-las a um identificador
+    pessoal. É mantido apenas no seu aparelho um identificador local e aleatório do modo
+    convidado, que <strong>nunca é transmitido</strong>.
+  </p>
+  <p>
+    Você pode apagar todos os dados do modo convidado a qualquer momento em
+    <strong>Perfil → "Sair e apagar meus dados"</strong>, ou desinstalando o Aplicativo.
+  </p>
+
+  <h2>3. Bases legais e finalidades (Art. 7 e 11)</h2>
   <table>
     <tr><th>Finalidade</th><th>Base legal</th></tr>
     <tr><td>Criar e manter sua conta e prestar as funcionalidades do Aplicativo</td><td>Execução de contrato (Art. 7, V)</td></tr>
     <tr><td>Gerir a assinatura Premium e liberar os recursos pagos</td><td>Execução de contrato (Art. 7, V)</td></tr>
     <tr><td>Login com Google (opcional)</td><td>Consentimento (Art. 7, I)</td></tr>
     <tr><td>Segurança, prevenção a fraude e melhoria do produto</td><td>Legítimo interesse (Art. 7, IX)</td></tr>
+    <tr><td>Métricas de uso e melhoria do produto (analytics)</td><td>Legítimo interesse, com opção de desativar no app (Art. 7, IX)</td></tr>
     <tr><td>Comunicações por e-mail sobre novidades e recursos</td><td>Legítimo interesse, com opção de descadastro (Art. 7, IX)</td></tr>
     <tr><td>Cumprimento de obrigações legais e regulatórias</td><td>Obrigação legal (Art. 7, II)</td></tr>
   </table>
 
-  <h2>3. Compartilhamento e operadores</h2>
+  <h2>4. Compartilhamento e operadores</h2>
   <p>Não vendemos seus dados. Compartilhamos o mínimo necessário com operadores que tratam dados em nosso nome:</p>
   <ul>
-    <li><strong>Google</strong> — autenticação (login), serviços do Google Play e <strong>processamento do pagamento da assinatura Premium (Google Play Billing)</strong> (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política</a>)</li>
+    <li><strong>Google</strong> — autenticação (login), serviços do Google Play, <strong>processamento do pagamento da assinatura Premium (Google Play Billing)</strong> e <strong>métricas de uso (Google Analytics for Firebase)</strong> (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política</a>)</li>
     <li><strong>Expo</strong> — infraestrutura do aplicativo e telemetria (<a href="https://expo.dev/privacy" target="_blank" rel="noopener">política</a>)</li>
     <li><strong>Resend</strong> — envio de e-mails transacionais e de serviço (<a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noopener">política</a>)</li>
     <li><strong>Hostinger</strong> — hospedagem do servidor (back-end) e banco de dados (<a href="https://www.hostinger.com.br/politica-de-privacidade" target="_blank" rel="noopener">política</a>)</li>
@@ -74,7 +94,7 @@
     ou para proteger direitos e a segurança de usuários.
   </p>
 
-  <h2>4. Transferência internacional (Art. 33)</h2>
+  <h2>5. Transferência internacional (Art. 33)</h2>
   <p>
     Seus dados ficam armazenados em servidores da <strong>Hostinger</strong> localizados nos
     <strong>Estados Unidos</strong>. Outros operadores (como Google, Expo e Resend) também processam
@@ -82,14 +102,16 @@
     LGPD para assegurar nível adequado de proteção.
   </p>
 
-  <h2>5. Retenção</h2>
+  <h2>6. Retenção</h2>
   <p>
     Mantemos seus dados enquanto sua conta estiver ativa. Após a exclusão da conta, eliminamos
     os dados pessoais associados, ressalvadas hipóteses de guarda obrigatória por lei. Registros
-    de segurança (logs) podem ser mantidos por até 90 dias.
+    de segurança (logs) podem ser mantidos por até 90 dias. No <strong>modo convidado</strong>, os
+    dados ficam apenas no aparelho e são eliminados imediatamente ao usar "Sair e apagar meus
+    dados" ou ao desinstalar o Aplicativo.
   </p>
 
-  <h2>6. Seus direitos (Art. 18)</h2>
+  <h2>7. Seus direitos (Art. 18)</h2>
   <p>Você pode, a qualquer tempo, solicitar: confirmação da existência de tratamento; acesso aos dados;
     correção; anonimização, bloqueio ou eliminação de dados desnecessários; portabilidade; informação
     sobre compartilhamento; e revogação do consentimento.</p>
@@ -101,7 +123,7 @@
     <a href="delete-account.html">Exclusão de conta</a>.
   </p>
 
-  <h2>7. Crianças e adolescentes (Art. 14)</h2>
+  <h2>8. Crianças e adolescentes (Art. 14)</h2>
   <p>
     O Aplicativo não é destinado a menores de 13 anos. O tratamento de dados de crianças e
     adolescentes observa o seu melhor interesse; quando aplicável, exige-se o consentimento de
@@ -109,17 +131,17 @@
     responsáveis podem nos contatar pelo e-mail acima.
   </p>
 
-  <h2>8. Segurança e incidentes (Art. 46 e 48)</h2>
+  <h2>9. Segurança e incidentes (Art. 46 e 48)</h2>
   <p>
     Adotamos medidas técnicas e administrativas para proteger seus dados, incluindo criptografia de
     senhas e transporte seguro (HTTPS). Em caso de incidente de segurança relevante, comunicaremos a
     Autoridade Nacional de Proteção de Dados (ANPD) e os titulares afetados, conforme a lei.
   </p>
 
-  <h2>9. Alterações</h2>
+  <h2>10. Alterações</h2>
   <p>Esta Política pode ser atualizada. Publicaremos a versão vigente nesta página, com a data de atualização.</p>
 
-  <h2>10. Contato e ANPD</h2>
+  <h2>11. Contato e ANPD</h2>
   <p>
     Dúvidas ou solicitações: <a href="mailto:guilhermejcprojects@gmail.com">guilhermejcprojects@gmail.com</a>.
     Você também pode apresentar reclamação à ANPD (<a href="https://www.gov.br/anpd" target="_blank" rel="noopener">gov.br/anpd</a>).
